@@ -16,16 +16,16 @@
 
 Morse Code
 
-#define LED_GREEN   PB5 // AVR pin where green LED is connected
-#define DOT 1000        // Delay in milliseconds
+#define LED_GREEN   PB5 
+#define DOT 1000        
 #define DASH 3000
-#ifndef F_CPU           // Preprocessor directive allows for conditional
-                        // compilation. The #ifndef means "if not defined".
-#define F_CPU 16000000 // CPU frequency in Hz required for delay
+#ifndef F_CPU           
+                        
+#define F_CPU 16000000 
 #endif               
 
-#include <util/delay.h> // Functions for busy-wait delay loops
-#include <avr/io.h>     // AVR device-specific IO definitions
+#include <util/delay.h> 
+#include <avr/io.h>     
 
 int main(void)
 {
@@ -37,7 +37,7 @@ int main(void)
     // PORTB = PORTB and 1101 1111
     PORTB = PORTB & ~(1<<LED_GREEN);
 
-    // Infinite loop
+    
     while (1)
     {
         PORTB = PORTB ^ (1<<LED_GREEN);
@@ -46,9 +46,7 @@ int main(void)
         PORTB = PORTB ^ (1<<LED_GREEN);
         _delay_ms(DASH);
 
-        // WRITE YOUR CODE HERE
     }
-
-    // Will never reach this
+    
     return 0;
 }
