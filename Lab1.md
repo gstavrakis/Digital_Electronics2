@@ -37,8 +37,9 @@ int main(void)
     while (1)
     {
         PORTB = PORTB ^ (1<<LED_GREEN);
-        // Pause several milliseconds
         _delay_ms(DOT);
+        PORTB = PORTB ^ (1<<LED_GREEN);
+        _delay_ms(300);
         PORTB = PORTB ^ (1<<LED_GREEN);
         _delay_ms(DASH);
 
