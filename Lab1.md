@@ -21,6 +21,7 @@ Morse Code
 #define DASH 3000
 #ifndef F_CPU           
                         
+
 #define F_CPU 16000000 
 #endif               
 
@@ -45,3 +46,6 @@ int main(void)
     
     return 0;
 }
+
+
+![lab1](https://user-images.githubusercontent.com/91612258/136060906-7518feb9-e4cd-447b-803f-155f3ff9d208.png)
