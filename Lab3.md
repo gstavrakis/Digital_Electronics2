@@ -20,9 +20,9 @@
 ### GPIO library
 
 1. 
-   * Function declaration
+   * Function declaration/n
      Function declaration is a prototype where we can define the function name and type and its parameters without a function body.
-   * Function definition
+   * Function definition/n
      In function definition where we can define the function name and type and its parameters with a function body.
      
 
