@@ -20,10 +20,10 @@
 ### GPIO library
 
 1. 
-   * Function declaration/n
-     Function declaration is a prototype where we can define the function name and type and its parameters without a function body.
-   * Function definition/n
-     In function definition where we can define the function name and type and its parameters with a function body.
+   * Function declaration:
+      Function declaration is a prototype where we can define the function name and type and its parameters without a function body.
+   * Function definition:
+      In function definition where we can define the function name and type and its parameters with a function body.
      
 
 2. Part of the C code listing with syntax highlighting, which toggles LEDs only if push button is pressed. Otherwise, the value of the LEDs does not change. Use function from your GPIO library. Let the push button is connected to port D:
@@ -53,4 +53,5 @@
 
 1. Scheme of traffic light application with one red/yellow/green light for cars and one red/green light for pedestrians. Connect AVR device, LEDs, resistors, one push button (for pedestrians), and supply voltage. The image can be drawn on a computer or by hand. Always name all components and their values!
 
-   
+   ![Lab3](https://user-images.githubusercontent.com/91612258/137008629-0e9a7b1a-0dd9-4182-a77f-eab3d0a01ade.png)
+
