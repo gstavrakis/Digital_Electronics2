@@ -4,7 +4,7 @@
 
 Link to your `Digital-electronics-2` GitHub repository:
 
-   [https://github.com/...](https://github.com/...)
+   https://github.com/gstavrakis/Digital_Electronics2
 
 
 ### Overflow times
