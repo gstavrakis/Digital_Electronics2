@@ -3,7 +3,7 @@
 
 Link to this file in your GitHub repository:
 
-[https://github.com/your-github-account/repository-name/lab_name](https://github.com/...)
+https://github.com/gstavrakis/Digital_Electronics2
 
 
 ### LCD display module
@@ -13,7 +13,7 @@ Link to this file in your GitHub repository:
 
 2. (Hand-drawn) picture of time signals between ATmega328P and LCD keypad shield (HD44780 driver) when transmitting three character data `De2`.
 
-   ![CamScanner 11-02-2021 23 56_2](https://user-images.githubusercontent.com/91612258/139963273-c206add5-d420-430d-b49f-322a60832422.jpg)
+   ![CamScanner 11-02-2021 23 56_1](https://user-images.githubusercontent.com/91612258/139963287-ec998d1f-e079-451c-b7d1-da64664d83b3.jpg)
 
 
 
@@ -21,9 +21,8 @@ Link to this file in your GitHub repository:
 
 1. Flowchart figure for `TIMER2_OVF_vect` interrupt service routine which overflows every 16&nbsp;ms but it updates the stopwatch LCD approximately every 100&nbsp;ms (6 x 16&nbsp;ms = 100&nbsp;ms). Display tenths of a second and seconds `00:seconds.tenths`. Let the stopwatch counts from `00:00.0` to `00:59.9` and then starts again. The image can be drawn on a computer or by hand. Use clear descriptions of the individual steps of the algorithms.
 
-   ![CamScanner 11-02-2021 23 56_1](https://user-images.githubusercontent.com/91612258/139963287-ec998d1f-e079-451c-b7d1-da64664d83b3.jpg)
-
-
+   ![CamScanner 11-02-2021 23 56_2](https://user-images.githubusercontent.com/91612258/139963273-c206add5-d420-430d-b49f-322a60832422.jpg)
+   
 
 ### Custom characters
 
