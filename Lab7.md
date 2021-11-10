@@ -12,8 +12,8 @@ Link to this file in your GitHub repository:
 
    | **Push button** | **PC0[A0] voltage** | **ADC value (calculated)** | **ADC value (measured)** |
    | :-: | :-: | :-: | :-: |
-   | Right  | 0&nbsp;V | 0   |  |
-   | Up     | 0.495&nbsp;V | 101 |  |
+   | Right  | 0&nbsp;V | 0   | 0 |
+   | Up     | 0.495&nbsp;V | 101 | 98 |
    | Down   | 1.203&nbsp;V      | 246    | 256 |
    | Left   | 1.97&nbsp;V      |  403   | 409 |
    | Select | 3.18&nbsp;V      |  651   | 639 |
