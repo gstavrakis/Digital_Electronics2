@@ -3,7 +3,7 @@
 
 Link to this file in your GitHub repository:
 
-[https://github.com/your-github-account/repository-name/lab_name](https://github.com/...)
+https://github.com/gstavrakis/Digital_Electronics2/blob/main/Lab8.md
 
 ### Arduino Uno pinout
 
