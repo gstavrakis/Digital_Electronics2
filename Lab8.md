@@ -16,6 +16,9 @@ Link to this file in your GitHub repository:
    * external interrupt pins INT0, INT1
 
    ![your figure](Images/arduino_uno_pinout.png)
+   
+   ![CamScanner 11-17-2021 11 55_2](https://user-images.githubusercontent.com/91612258/142188002-812c22e4-3b75-4d6c-a137-0280a7a0ce1f.jpg)
+
 
 ### I2C
 
@@ -83,7 +86,8 @@ ISR(TIMER1_OVF_vect)
 
 2. (Hand-drawn) picture of I2C signals when reading checksum (only 1 byte) from DHT12 sensor. Indicate which specific moments control the data line master and which slave.
 
-   ![your figure]()
+   ![CamScanner 11-17-2021 11 55_1](https://user-images.githubusercontent.com/91612258/142188041-5fb77b99-5069-4944-a49d-44ac9c9e8409.jpg)
+
 
 ### Meteo station
 
